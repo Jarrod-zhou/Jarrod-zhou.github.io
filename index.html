@@ -231,7 +231,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://jarrod-zhou.github.io/uncategorized/me/">
+    <link itemprop="mainEntityOfPage" href="https://jarrod-zhou.github.io/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -245,7 +245,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/uncategorized/me/" class="post-title-link" itemprop="url">hexo 常用命令记录</a>
+            <a href="/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/" class="post-title-link" itemprop="url">hexo 常用命令记录</a>
         </h1>
 
         <div class="post-meta">
@@ -262,7 +262,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-01 14:41:07" itemprop="dateModified" datetime="2020-04-01T14:41:07+08:00">2020-04-01</time>
+                <time title="修改时间：2020-04-01 15:31:54" itemprop="dateModified" datetime="2020-04-01T15:31:54+08:00">2020-04-01</time>
               </span>
 
           
@@ -274,8 +274,8 @@
       </span>
       <span class="post-meta-item-text">Disqus：</span>
     
-    <a title="disqus" href="/uncategorized/me/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="uncategorized/me/" itemprop="commentCount"></span>
+    <a title="disqus" href="/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="uncategorized/hexo 常用命令记录/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -285,7 +285,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.2k</span>
+              <span>535</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -305,57 +305,30 @@
 
       
           <h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote>
-<p>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化</p>
+<p>npm install hexo -g  #安装<br>npm update hexo -g   #升级<br>hexo init            #初始化</p>
 </blockquote>
 <h2 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h2><blockquote>
-<p>hexo n “title” == hexo new “title” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
+<p>hexo n “title” == hexo new “title” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate            #生成<br>hexo s == hexo server              #启动服务预览<br>hexo d == hexo deploy              #部署</p>
 </blockquote>
 <h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><blockquote>
-<p>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s #静态模式<br>hexo server -p 5000 #更改端口<br>hexo server -i 192.168.1.1 #自定义 IP</p>
-</blockquote>
-<blockquote>
-<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
+<p>hexo server          #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s       #静态模式<br>hexo server -p 5000  #更改端口<br>hexo server -i 192.168.1.1  #自定义 IP<br>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
 </blockquote>
 <h2 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h2><blockquote>
 <p>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
 </blockquote>
 <h2 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h2><blockquote>
-<p><em>两个命令的作用是相同的</em><br>hexo generate –deploy<br>hexo deploy –generate</p>
+<p>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
 </blockquote>
-<blockquote>
-<p><em>简写后变成</em><br>hexo deploy -g<br>hexo server -g</p>
-</blockquote>
-<h2 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h2><blockquote>
-<p>hexo publish [layout] <title></p>
-</blockquote>
-<h2 id="模版"><a href="#模版" class="headerlink" title="模版"></a>模版</h2><blockquote>
-<p>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub<br>hexo new [layout] <title><br>hexo new photo “My Gallery”<br>hexo new “Hello World” –lang tw</p>
-</blockquote>
-<ul>
-<li>变量<br>描述<br>layout<br>布局<br>title<br>标题<br>date<br>文件建立日期</li>
-</ul>
-<blockquote>
-<p>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。</p>
-</blockquote>
-<h2 id="模版（Scaffold）"><a href="#模版（Scaffold）" class="headerlink" title="模版（Scaffold）"></a>模版（Scaffold）</h2><blockquote>
-<p>hexo new photo “My Gallery”</p>
-</blockquote>
-<ul>
-<li>变量<br>描述<br>layout<br>布局<br>title<br>标题<br>date<br>文件建立日期<h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><blockquote>
-<p>以上是文章摘要 &lt;!–more–以下是余下全文 </p>
-</blockquote>
-<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2></li>
-</ul>
-<blockquote>
-<p>hexo new page <title><br>hexo new post <title></p>
-</blockquote>
-<ul>
-<li>变量<br>描述<br>:title<br>标题<br>:year<br>建立的年份（4 位数）<br>:month<br>建立的月份（2 位数）<br>:i_month<br>建立的月份（去掉开头的零）<br>:day<br>建立的日期（2 位数）<br>:i_day<br>建立的日期（去掉开头的零）<h2 id="推送到服务器上"><a href="#推送到服务器上" class="headerlink" title="推送到服务器上"></a>推送到服务器上</h2></li>
-</ul>
-<blockquote>
-<p>hexo n #写文章<br>hexo g #生成<br>hexo d #部署 #可与hexo g合并为 hexo d -g</p>
-</blockquote>
-
+<h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><blockquote>
+<p>以上是文章摘要 <strong>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -746,7 +719,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">1k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
