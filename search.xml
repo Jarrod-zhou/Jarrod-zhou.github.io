@@ -18,10 +18,7 @@
 <h2 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h2><blockquote>
 <p>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
 </blockquote>
-<h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><blockquote>
-<p>以上是文章摘要 <strong><a id="more"></a></strong>  以下是余下全文 </p>
-</blockquote>
-<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><blockquote>
+<h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><pre><code>&gt; 以上是文章摘要 &lt;!--more--&gt;  以下是余下全文 </code></pre><h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><blockquote>
 <p>hexo new page<br>hexo new post </p>
 </blockquote>
 <h2 id="推送到服务器上"><a href="#推送到服务器上" class="headerlink" title="推送到服务器上"></a>推送到服务器上</h2><blockquote>

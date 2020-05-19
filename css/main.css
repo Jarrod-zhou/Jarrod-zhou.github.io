@@ -1297,7 +1297,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff6ef6;
+  background: #ff836c;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2193,6 +2193,16 @@ pre .javascript .function {
   margin: 2em 0 0;
   padding: 0.5em 1em;
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+}
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
 .category-all-page .category-all-title {
   text-align: center;
 }
@@ -2543,7 +2553,7 @@ ul.breadcrumb li + li:last-child {
   box-sizing: border-box;
   float: right;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: calc(100% - 255px);
 }
 @media (max-width: 991px) {
   .content-wrap {
@@ -2730,7 +2740,7 @@ ul.breadcrumb li + li:last-child {
 }
 .sidebar-inner.affix {
   position: fixed;
-  top: 12px;
+  top: 15px;
 }
 .sidebar-inner.affix-bottom {
   position: absolute;
@@ -2813,14 +2823,14 @@ ul.breadcrumb li + li:last-child {
 .post-block + .post-block {
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
-  margin-top: 12px;
+  margin-top: 15px;
 }
 .comments {
   background: #fff;
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin: auto;
-  margin-top: 12px;
+  margin-top: 15px;
   padding: 40px;
 }
 .tabs-comment {
@@ -2837,7 +2847,7 @@ ul.breadcrumb li + li:last-child {
   border-radius: initial;
   border-top: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
-  margin: 12px 0 0;
+  margin: 15px 0 0;
   padding: 10px 0 10px;
 }
 .pagination .prev,
@@ -2858,7 +2868,7 @@ ul.breadcrumb li + li:last-child {
 }
 .sub-menu + .content .post-block {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
-  margin-top: 12px;
+  margin-top: 15px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sub-menu + .content .post-block {
@@ -2911,20 +2921,20 @@ ul.breadcrumb li + li:last-child {
     margin: initial;
   }
   .posts-expand .post-button {
-    margin: 12px 0;
+    margin: 15px 0;
   }
   .post-block {
     border-radius: initial;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     min-height: auto;
-    padding: 12px;
+    padding: 15px;
   }
   .post-block + .post-block {
     margin-top: 8px;
   }
   .comments {
     margin-top: 8px;
-    padding: 10px 12px;
+    padding: 10px 15px;
   }
   .pagination {
     margin: 8px 0 0;

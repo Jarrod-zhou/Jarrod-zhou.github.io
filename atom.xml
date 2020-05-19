@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jarrod-zhou.github.io/"/>
-  <updated>2020-04-01T07:31:54.167Z</updated>
+  <updated>2020-04-01T07:36:33.405Z</updated>
   <id>https://jarrod-zhou.github.io/</id>
   
   <author>
@@ -21,29 +21,18 @@
     <link href="https://jarrod-zhou.github.io/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/"/>
     <id>https://jarrod-zhou.github.io/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</id>
     <published>2020-04-01T06:28:45.000Z</published>
-    <updated>2020-04-01T07:31:54.167Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote><p>npm install hexo -g  #安装<br>npm update hexo -g   #升级<br>hexo init            #初始化</p></blockquote><h2 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h2><blockquote><p>hexo n “title” == hexo new “title” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate            #生成<br>hexo s == hexo server              #启动服务预览<br>hexo d == hexo deploy              #部署</p></blockquote><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><blockquote><p>hexo server          #Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s       #静态模式<br>hexo server -p 5000  #更改端口<br>hexo server -i 192.168.1.1  #自定义 IP<br>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p></blockquote><h2 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h2><blockquote><p>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p></blockquote><h2 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h2><blockquote><p>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p></blockquote><h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><blockquote><p>以上是文章摘要 <strong><a id="more"></a></strong>  以下是余下全文 </p></blockquote><h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><blockquote><p>hexo new page<br>hexo new post </p></blockquote><h2 id="推送到服务器上"><a href="#推送到服务器上" class="headerlink" title="推送到服务器上"></a>推送到服务器上</h2><blockquote><p>hexo n #写文章<br>hexo g #生成<br>hexo d #部署</p></blockquote>]]></content>
+    <updated>2020-04-01T07:36:33.405Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;hexo&quot;&gt;&lt;a href=&quot;#hexo&quot; class=&quot;headerlink&quot; title=&quot;hexo&quot;&gt;&lt;/a&gt;hexo&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;npm install hexo -g  #安装&lt;br&gt;npm update hexo -g   #升级&lt;br&gt;hexo init            #初始化&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;hexo n “title” == hexo new “title” #新建文章&lt;br&gt;hexo p == hexo publish&lt;br&gt;hexo g == hexo generate            #生成&lt;br&gt;hexo s == hexo server              #启动服务预览&lt;br&gt;hexo d == hexo deploy              #部署&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;服务器&quot;&gt;&lt;a href=&quot;#服务器&quot; class=&quot;headerlink&quot; title=&quot;服务器&quot;&gt;&lt;/a&gt;服务器&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;hexo server          #Hexo 会监视文件变动并自动更新，您无须重启服务器。&lt;br&gt;hexo server -s       #静态模式&lt;br&gt;hexo server -p 5000  #更改端口&lt;br&gt;hexo server -i 192.168.1.1  #自定义 IP&lt;br&gt;hexo clean #清除缓存 网页正常情况下可以忽略此条命令&lt;br&gt;hexo g #生成静态网页&lt;br&gt;hexo d #开始部署&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;监视文件变动&quot;&gt;&lt;a href=&quot;#监视文件变动&quot; class=&quot;headerlink&quot; title=&quot;监视文件变动&quot;&gt;&lt;/a&gt;监视文件变动&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;hexo generate #使用 Hexo 生成静态文件快速而且简单&lt;br&gt;hexo generate –watch #监视文件变动&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;完成后部署&quot;&gt;&lt;a href=&quot;#完成后部署&quot; class=&quot;headerlink&quot; title=&quot;完成后部署&quot;&gt;&lt;/a&gt;完成后部署&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;hexo generate –deploy&lt;br&gt;hexo deploy –generate&lt;br&gt;hexo deploy -g&lt;br&gt;hexo server -g&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;设置文章摘要&quot;&gt;&lt;a href=&quot;#设置文章摘要&quot; class=&quot;headerlink&quot; title=&quot;设置文章摘要&quot;&gt;&lt;/a&gt;设置文章摘要&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;以上是文章摘要 &lt;strong&gt;
+      
+      
+        
+        
+          &lt;h2 id=&quot;hexo&quot;&gt;&lt;a href=&quot;#hexo&quot; class=&quot;headerlink&quot; title=&quot;hexo&quot;&gt;&lt;/a&gt;hexo&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;npm install hexo -g  #安装&lt;br&gt;npm update hexo -g  
+        
+      
     
     </summary>
     
@@ -60,14 +49,15 @@
     <published>2019-12-10T15:43:27.000Z</published>
     <updated>2019-12-17T15:08:51.619Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="准备建个博客啦"><a href="#准备建个博客啦" class="headerlink" title="准备建个博客啦"></a>准备建个博客啦</h2><hr><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>虽然之前训练营上课用过wordpress，可还是选择了用hexo，毕竟大佬推荐，库卡要冲向未知的旅程！！！<br>可惜自己还是个菜鸡.<br>想做的事总是没做<br>ACM的算法还是没怎么学<br>好好加油吧，调整状态！！！</p><hr><h2 id="参考网址"><a href="#参考网址" class="headerlink" title="参考网址"></a>参考网址</h2><p><a href="http://www.codesheep.cn" target="_blank" rel="noopener">www.codesheep.cn</a></p>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;准备建个博客啦&quot;&gt;&lt;a href=&quot;#准备建个博客啦&quot; class=&quot;headerlink&quot; title=&quot;准备建个博客啦&quot;&gt;&lt;/a&gt;准备建个博客啦&lt;/h2&gt;&lt;hr&gt;
-&lt;h2 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot; tit
+        
+        
+          &lt;h2 id=&quot;准备建个博客啦&quot;&gt;&lt;a href=&quot;#准备建个博客啦&quot; class=&quot;headerlink&quot; title=&quot;准备建个博客啦&quot;&gt;&lt;/a&gt;准备建个博客啦&lt;/h2&gt;&lt;hr&gt;
+&lt;h2 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot;
+        
       
     
     </summary>
@@ -89,13 +79,14 @@
     <published>2019-12-10T15:39:01.000Z</published>
     <updated>2019-12-17T15:10:08.527Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
       
     
     </summary>

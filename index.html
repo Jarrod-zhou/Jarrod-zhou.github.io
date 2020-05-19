@@ -26,7 +26,7 @@
     scheme: 'Gemini',
     version: '7.6.0',
     exturl: false,
-    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
+    sidebar: {"position":"left","display":"post","padding":18,"offset":15,"onmobile":false,"b2t":true,"scrollpercent":true},
     copycode: {"enable":true,"show_result":true,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
@@ -42,7 +42,7 @@
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     },
-    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false},
     path: 'search.xml',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
   };
@@ -178,6 +178,11 @@
     <a href="/schedule/" rel="section"><i class="fa fa-fw fa-calendar"></i>日程表</a>
 
   </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>公益 404</a>
+
+  </li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -230,6 +235,7 @@
         
   
   
+
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://jarrod-zhou.github.io/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/">
 
@@ -262,7 +268,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-01 15:31:54" itemprop="dateModified" datetime="2020-04-01T15:31:54+08:00">2020-04-01</time>
+                <time title="修改时间：2020-04-01 15:36:33" itemprop="dateModified" datetime="2020-04-01T15:36:33+08:00">2020-04-01</time>
               </span>
 
           
@@ -285,7 +291,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>535</span>
+              <span>556</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -319,16 +325,13 @@
 <h2 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h2><blockquote>
 <p>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g</p>
 </blockquote>
-<h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><blockquote>
-<p>以上是文章摘要 <strong>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/uncategorized/hexo%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+<h2 id="设置文章摘要"><a href="#设置文章摘要" class="headerlink" title="设置文章摘要"></a>设置文章摘要</h2><pre><code>&gt; 以上是文章摘要 &lt;!--more--&gt;  以下是余下全文 </code></pre><h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><blockquote>
+<p>hexo new page<br>hexo new post </p>
+</blockquote>
+<h2 id="推送到服务器上"><a href="#推送到服务器上" class="headerlink" title="推送到服务器上"></a>推送到服务器上</h2><blockquote>
+<p>hexo n #写文章<br>hexo g #生成<br>hexo d #部署</p>
+</blockquote>
+
       
     </div>
 
@@ -349,6 +352,7 @@
         
   
   
+
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://jarrod-zhou.github.io/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/%E5%BA%93%E5%8D%A1%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AD%A5/">
 
@@ -465,6 +469,7 @@
         
   
   
+
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://jarrod-zhou.github.io/uncategorized/hello-world/">
 
@@ -670,6 +675,9 @@
       <span class="links-of-author-item">
         <a href="https://www.weibo.com/6677526247/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Weibo → https:&#x2F;&#x2F;www.weibo.com&#x2F;6677526247&#x2F;profile?rightmod&#x3D;1&amp;wvr&#x3D;6&amp;mod&#x3D;personinfo&amp;is_all&#x3D;1" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
       </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i></a>
+      </span>
   </div>
 
 
@@ -721,7 +729,7 @@
       <span class="post-meta-item-text">站点总字数：</span>
     <span title="站点总字数">1k</span>
     <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
+    我们<span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
